@@ -10,10 +10,17 @@ export default function TodoList() {
                 type="text" 
                 placeholder="Adicione uma tarefa"
                 />
-                <button type="submit">Add</button>
+                <button className="add" type="submit">Add</button>
             </form>
-            <div className="">
-
+            <div className="listaTarefas">
+                <div className="item">
+                    <span>Tarefa de exemplo</span>
+                    <button>Deletar</button>
+                </div>
+                <div className="item completo">
+                    <span>Tarefa de exemplo</span>
+                    <button>Deletar</button>
+                </div>
             </div>
         </div>
     )
